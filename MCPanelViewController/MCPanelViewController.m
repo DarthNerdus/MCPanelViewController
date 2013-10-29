@@ -314,6 +314,10 @@ const static NSString *MCPanelViewGestureAnimationDirectionKey = @"MCPanelViewGe
             image = [image applyTintEffectWithColor:self.tintColor];
             break;
 
+        case MCPanelBackgroundStyleControlCenter:
+            image = [image applyBlurWithRadius:20 tintColor:[UIColor colorWithWhite:0.23 alpha:0.25] saturationDeltaFactor:1.8 maskImage:nil];
+            break;
+
         default:
             image = [image applyLightEffect];
             break;

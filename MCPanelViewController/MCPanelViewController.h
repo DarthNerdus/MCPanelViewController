@@ -17,7 +17,8 @@ typedef NS_ENUM(NSInteger, MCPanelBackgroundStyle) {
     MCPanelBackgroundStyleLight = 0,
     MCPanelBackgroundStyleExtraLight,
     MCPanelBackgroundStyleDark,
-    MCPanelBackgroundStyleTinted
+    MCPanelBackgroundStyleTinted,
+    MCPanelBackgroundStyleControlCenter
 };
 
 @interface MCPanelViewController : UIViewController
